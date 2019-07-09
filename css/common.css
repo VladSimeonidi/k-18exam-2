@@ -765,15 +765,22 @@ body {
 .wrapper_8 {
 	position: relative;
 	width: 100%;
-	min-height: 560px;
+	min-height: 540px;
 }
 
 .content_8 {
+	position: relative;
 	max-width: 1225px;
 	min-width: 980px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 45px;
+	margin-top: 25px;
+}
+
+.content_8-1 {
+	position: absolute;
+	top: 20px;
+	z-index: 1;
 	background-color: #03993d;
 	background-image: url(../images/pattern.png);
 	text-align: center;
@@ -781,9 +788,7 @@ body {
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	box-shadow: 0 5px 5px grey;
-	position: absolute;
-	z-index: 2;
-	left: 14%;
+	width: 100%;
 }
 
 .content_8__paragh_1 {
@@ -813,9 +818,9 @@ body {
 /*iframe video-2*/
 
 .iframe-map {
-	top: 220px;
 	position: absolute;
 	width: 100%;
+	top: 200px;
 }
 
 
